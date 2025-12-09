@@ -37,6 +37,7 @@ dependencies = [
     { name = "jupytext" },
     { name = "lab" },
     { name = "locust" },
+    { name = "logging" },
     { name = "openapi-python-client" },
     { name = "pandas" },
     { name = "pyarrow" },
@@ -67,6 +68,7 @@ requires-dist = [
     { name = "jupytext", specifier = ">=1.16.7" },
     { name = "lab", specifier = ">=8.4" },
     { name = "locust", specifier = ">=2.42.6" },
+    { name = "logging", specifier = ">=0.4.9.6" },
     { name = "openapi-python-client", specifier = ">=0.28.0" },
     { name = "pandas", specifier = ">=2.3.3" },
     { name = "pyarrow", specifier = "<20" },
@@ -1273,6 +1275,12 @@ sdist = { url = "https://files.pythonhosted.org/packages/56/15/b51aa0907558bec5b
 wheels = [
     { url = "https://files.pythonhosted.org/packages/5b/12/3198fd72483a81d8b0cd41ebb7d2cd02547440fdfa17527a96853fd0a2fd/locust_cloud-1.29.5-py3-none-any.whl", hash = "sha256:4c0927508e4c86c824fc91fb905c924a0e843b68701655c6ddf8f241053ca8d5", size = 413447, upload-time = "2025-12-02T10:40:12.976Z" },
 ]
+
+[[package]]
+name = "logging"
+version = "0.4.9.6"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/93/4b/979db9e44be09f71e85c9c8cfc42f258adfb7d93ce01deed2788b2948919/logging-0.4.9.6.tar.gz", hash = "sha256:26f6b50773f085042d301085bd1bf5d9f3735704db9f37c1ce6d8b85c38f2417", size = 96029, upload-time = "2013-06-04T23:43:22.086Z" }
 
 [[package]]
 name = "markdown-it-py"
