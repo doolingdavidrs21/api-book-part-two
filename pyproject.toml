@@ -12,6 +12,7 @@ dependencies = [
     "jupyter-ruff>=0.2.0",
     "jupytext>=1.16.7",
     "lab>=8.4",
+    "locust>=2.42.6",
     "openapi-python-client>=0.28.0",
     "pandas>=2.3.3",
     "pyarrow<20",
