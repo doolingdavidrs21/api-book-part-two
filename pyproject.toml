@@ -31,7 +31,12 @@ dev = [
     "ipykernel>=6.29.5",
 ]
 
+[tool.uv]
+index-strategy = "unsafe-best-match"
+
 [[tool.uv.index]]
 name = "testpypi"
 url = "https://test.pypi.org/simple/"
 explicit = false
+
+
